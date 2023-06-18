@@ -6,30 +6,7 @@ import '../../style/AboutUs.css'
 const RND = () => {
   return (
     <>   
-     <nav className="navbar navbar-expand-lg bg-light">
-    <div className="container-fluid">
-      
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="#">Home /</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="#">About Us /</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="#">R & D</Link>
-                </li>
-                </ul>
-        </div>
-    </div>
-</nav>
-
+     
 
 <div className="container">
     <div className="row">
@@ -44,7 +21,7 @@ const RND = () => {
                 level of maturity requires years of questioning the purpose of our existence and truly understanding
                 who we are creating for.<br/><br/>
                 Simpolo’s research and development laboratory is the biggest in India in terms of the sheer
-                complexity and size. <br> </br>
+                complexity and size. <br/> <br/>
                 Changing the face of the ceramic industry, one innovation at a time. Every product of Simpolo is a
                 result of a flawless R&D set-up. 
                 Discovering opportunities that can simplify lives by means of breakthrough technology and

@@ -12,16 +12,16 @@ const HeaderMenu = () => {
     const aboutUs = (
         <Menu>
             <Menu.Item key="1" className="header-submenu">
-                Director's Message
+            <Link to="director-message">  Director's Message</Link>
             </Menu.Item>
             <Menu.Item key="2" className="header-submenu">
-                Company Profile
+            <Link to="/company-profile">Company Profile</Link>
             </Menu.Item>
             <Menu.Item key="3" className="header-submenu">
-                Mission & Vision
+               <Link to="/mission-vision">Mission & Vision</Link>
             </Menu.Item>
             <Menu.Item key="4" className="header-submenu">
-                R & D
+            <Link to="/r-d">  R & D </Link>
             </Menu.Item>
         </Menu>
     );
@@ -29,7 +29,7 @@ const HeaderMenu = () => {
     const products = (
         <Menu>
             <Menu.Item key="5" className="header-submenu">
-                Silica Sand
+            <Link to="/silica-sand"> Silica Sand </Link>
             </Menu.Item>
             <Menu.Item key="6" className="header-submenu">
                 Ball Clay
@@ -91,7 +91,7 @@ const HeaderMenu = () => {
                         </Dropdown>
                     </Menu.Item>
                     <Menu.Item key="applications">
-                        <Link to="/about">Applications</Link>
+                        <Link to="/applications">Applications</Link>
                     </Menu.Item>
                     <Menu.Item key="downloads">
                         <Link to="/downloads">Downloads</Link>

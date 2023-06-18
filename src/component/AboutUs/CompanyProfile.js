@@ -1,11 +1,12 @@
 import React from 'react'
 import '../../style/CompanyProfile.css'
-import company from '../../assets/compny.jpg'
+import company from '../../assets/company-profile.jpg'
 
 const CompanyProfile = () => {
       return (
       <div className="container">
         <div className="row">
+        <div className='many'>
            <div className="col-md-6">
              <img src={company} alt=""  />
            </div>
@@ -16,6 +17,7 @@ const CompanyProfile = () => {
             </p>
             <p>We endure gratification for every experience that we offer, created to share something truly meaningful.It may not resonate with the majority, but that is what takes us a className apart.If only a handful were to understand the purpose of our existence, we would be proud to have found our believers. Rather, people with whom we can share our beliefs.</p>
          </div>
+        </div>
         </div>
     </div>
     )
